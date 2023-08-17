@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="./css/animate.css" rel="stylesheet" type="text/css">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css?v=1.0" rel="stylesheet" type="text/css">
+
+    <title></title>
+
+<body>
+    <div class="page" id="page">
+        <div class="header">
+            <header class="container">
+                header
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#menu">menu</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <section class="container section indent" id="menu">
+            <div class="wrapper">
+                <h1>h1</h1>
+                <h2>h2</h2>
+                <h3>h3</h3>
+                <h4>h4</h4>
+                <h5>h5</h5>
+                <h6>h6</h6>
+                <hr>
+                <button class="popap__btn" data-path="popap">button</button>
+                <hr>
+                <div class="group">
+                    <div class="input-friends">
+                        <label for="input-name1">label
+                            <svg class="icon-required">
+                                <use xlink:href="#icon-required" />
+                            </svg>
+                        </label>
+                        <input type="text" id="input-name1" placeholder="текст" required>
+                    </div>
+                    <div class="input-friends">
+                        <label for="select-name1">label
+                            <svg class="icon-required">
+                                <use xlink:href="#icon-required" />
+                            </svg>
+                        </label>
+                        <select id="select-name1">
+                            <option disabled>disabled</option>
+                            <option value="option 1">option 1</option>
+                            <option selected value="option 2">option 2</option>
+                            <option value="option 3">option 3</option>
+                        </select>
+                    </div>
+                    <div class="input-friends">
+                        <label for="textarea-name1">label
+                            <svg class="icon-required">
+                                <use xlink:href="#icon-required" />
+                            </svg>
+                        </label>
+                        <textarea id="textarea-name1" placeholder="текст"></textarea>
+                    </div>
+                    <div class="input-friends required">
+                        <input type="checkbox" id="input-name2" placeholder="текст">
+                        <label for="input-name2">label</label>
+                    </div>
+                    <div class="input-friends required">
+                        <input type="radio" id="input-name3" placeholder="текст">
+                        <label for="input-name3">label</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container section">
+        <div class="footer__copyright">
+            <div>© <span class="year"></span>. footer</div>
+        </div>
+    </footer>
+
+    <!-- popap -->
+    <div class="popap">
+        <div class="form__block" data-popap="popap">
+            <div class="popap__close">×</div>
+            <div class="form__content">
+                <h2>Заголовок</h2>
+            </div>
+        </div>
+    </div>
+    <!-- popap -->
+     <!--sprite-->
+     <svg
+     style="position: absolute; width: 0; height: 0"
+     width="0"
+     height="0"
+     version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+   >
+     <defs>
+        <symbol id="icon-required" viewBox="0 0 16 16">
+            <path d="M8 4V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.464 6L4.53601 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.53601 6L11.464 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> 
+        </symbol>
+     </defs>
+   </svg>
+    
+   <!--sprite-->
+    <script defer type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
+
+    
+    
+    
+    
